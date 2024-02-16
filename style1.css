@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: sans-serif;
+    line-height: 1.4;
+  }
+  .container {
+    border: 2px solid #7f7f7f;
+    width: 700px;
+    margin: 50px auto;
+    position: relative;
+  }
+  .product-title {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  .shipping {
+    font-weight: bold;
+    color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  button {
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-top: 4px solid black;
+  }
+  
+  button:hover {
+    color: #7f7f7f;
+    background-color: #fff;
+    width: 100%;
+  }
+  p {
+    color: black;
+  }
+  .price {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .more:link ,more:visited{
+    color: black;
+    display:inline-block;
+    margin-bottom: 30px;
+  }
+  .more:hover,
+  .more:active {
+    text-decoration: none;
+  }
+  .color
+  {
+    background-color: #000;
+    height:22px;
+    width:22px;
+    display:inline-block;
+  }
+  .color-blue
+  {
+    background-color: #2f6ee2;
+  }
+  .color-red
+  {
+background-color: #ec2f2f;
+  }
+  .color-yellow
+  {
+    background-color: #f0bf1e;
+  }
+  .color-green
+  {
+    background-color: #90cc20;
+  }
+  .color-brown
+  {
+    background-color:#885214 ;
+  }
+  .details-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  .details-list {
+    list-style: square;
+    margin-left: 20px;
+  }
+  .details-list li {
+    margin-bottom: 10px;
+  }
+  .details-list li:last-child {
+    margin-bottom: 0;
+  }
+  h1::after
+  {
+    padding: 5px;
+    content: "Sale";
+    position: absolute;
+    top:-13px;
+    left:-15px;
+    background-color: #ec2f2f;
+    font-weight: Bold;
+    font-size: 12px;
+    border: 2px ;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+  }
